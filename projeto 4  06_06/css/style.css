@@ -1,0 +1,118 @@
+body{
+	background-color:black; /*cor do fundo*/
+	color: floralwhite;
+}
+h1{
+	text-align: center; /*alinhamneto da letra*/
+	font-size:80px ; /*tamanho da letra*/
+	font-family: Brush Script MT; /*fonte*/
+	text-decoration: underline; /*decoração/sublinhado*/
+	color: floralwhite; /*cor do texto*/
+}
+p{
+	text-align: center;
+	color: floralwhite;
+	font-size: 20px;
+	font-aling: justify;
+	font-family: Copperplate, Papyrus, fantasy;
+}
+img{
+	width: 60vw; /*view width - %largura*/
+	height: 60vh; /*view heigth %altura*/
+	margin-left: 20vw; /*margem esquerda*/
+}
+
+/*matematica*/
+
+section{
+	display: flex; /*permitem coisas lado a lado*/
+	justify-content: center; /*centralizar todas as coisas*/ 
+}
+section.texto{
+	width: 50vw;
+	height: 35vh;
+	margin-left: 25vw; /*margem esquerda*/
+	margin-top: 10vh; /*margem topo*/
+	background: linear-gradient(whitesmoke, whitesmoke, lightgray, gray); 
+	border: 2px dotted black; /*borda pontilhada branca*/
+	border-radius: 16px; /*arrendonda a borda*/
+}
+#imagem{
+	width: 30%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column; /*alinhar em culuna/deixar alinhado no centro*/
+
+}
+#imagem img{
+	max-width: 90%;
+	max-height: 100%;
+	width: auto;
+	height: auto;
+	border-radius: 10%;
+	margin-left: 0px;
+}
+#conteudo{
+	width: 70%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	flex-direction: column;
+}
+#conteudo p{
+	color: black;
+	font-size: 45px;
+}
+
+section.link{
+	width: 30vw;
+	height: 35vh;
+	margin-left: 35vw;
+	margin-top: 10vh; 
+	background: radial-gradient(palevioletred, darkred); 
+	border: 2px dotted black; 
+	border-radius: 16px; 
+}
+section.link a{
+	color: floralwhite;
+	font-size: 85px;
+}
+section.link a:hover{
+	color: black;
+	font-size: 110px;
+}
+#link{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+section.linky{
+	width: 30vw;
+	height: 35vh;
+	margin-left: 35vw;
+	margin-top: 10vh; 
+	background:  radial-gradient(yellowgreen, forestgreen);
+	border: 2px dotted black; 
+	border-radius: 16px; 
+#linky{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+section.linky a{
+	color: floralwhite;
+	font-size: 85px;
+}
+section.linky a:hover{
+	color: black;
+	font-size: 110px;
+}
