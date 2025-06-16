@@ -1,0 +1,58 @@
+body.hitboxes{
+	background-color: black;
+	color:rgb(156, 255, 34, 1.0);
+	background: url(img/matrix4.png);
+	display: flex;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+section{
+	border: 0px ridge red;
+}
+main.hitboxes{
+	background:rgb(0, 0, 0, 0.5);
+	width: 80vw;
+	height: 100vh;
+	margin-left: 10vw;
+	margin-top: 0px;
+}
+section.titulo_hitboxes h1{
+	display: flex;
+	justify-content: center;
+	font-size: 3vw;
+}
+section.aviso_de_morte_hitboxes{
+	justify-content: center;
+	text-align: center;
+	font-size: 1.5vw;
+}
+img{
+	width: 150px;
+	height: 150px;
+	margin: 1vw;
+	cursor: pointer;
+}
+div.macaco_roxo_hitboxes img{
+	margin-left: -4vw;
+	margin-bottom: -31vh;
+}
+div.I_Love_You_hitboxes img{
+	margin-left: -3vw;
+	margin-top: -23vh;
+}
+div.wanna_cry_hitboxes img{
+	margin-left: -5vw;
+	margin-top: 5vh;
+}
+div.skull_hitboxes img{
+	margin-left: 76vw;
+	margin-bottom: -31vh;
+}
+div.red_spider_hitboxes img{
+	margin-left: 75vw;
+	margin-top: -8vh;
+}
+div.android_fake_hitboxes img{
+	margin-left: 77vw;
+	margin-top: -90vh;
+}

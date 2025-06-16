@@ -52,7 +52,8 @@ ul.nav li a{
 	font-size: 2vw;
 }
 ul.nav li.link4:hover{
-	background-image: url(../img/gifs/muita_musica1.gif);
+	background-image: url(../img/gifs/cat.gif);
+		background-size: 100% 100%;
 }
 ul.nav li.link4:hover a{
 	color: white ;
@@ -67,8 +68,7 @@ ul.nav li.link3:hover a{
 	font-weight: bold;
 }
 ul.nav li.link2:hover{
-	background-image: url(../img/gifs/loading.gif);
-	background-size: 100% 100%;
+	background-image: url(../img/gifs/muita_musica1.gif);
 }
 ul.nav li.link2:hover a{
 	color: indianred ;
@@ -150,4 +150,212 @@ footer{
 	flex-direction: column;
 	align-items: center;
 	margin-top: 5vh;
+}
+section.tabela table{
+	width: 78vw;
+	height: auto;
+	margin-top: 6vh;
+	background-color: rgb(0, 0, 0, 0.6);
+	border-radius: 10px;
+	border: 2px ridge white;
+	align-items: center;
+	text-align: center;
+}
+section.tabela table th{
+	margin: 0px;
+	border-radius: 10px;
+	border: 4px ridge yellow;
+	background-color: rgb(255, 255, 255, 0.15);
+	color: floralwhite;
+	width: 26vw;
+	height: 10vh;
+}
+section.tabela table td{
+	margin: 0px;
+	border-radius: 10px;
+	border: 2px ridge white;
+	background-color: rgb(255, 255, 255, 0.15);
+	color: floralwhite;
+	width: 26vw;
+	height: 10vh;
+}
+section.mapa{
+	margin-top: 6vh;
+}
+section.mapa iframe{
+	box-shadow: -10px 10px 8px black; /*distancia horizontal(x), distancia vertical(y), expessura, cor */
+	border-radius: 16px;
+}
+
+/*MEGA ULTRA HIPER BLASTER FESTA*/
+
+/*part1*/
+
+section.menu2{
+	width: 46vw;
+	height: 14vh;
+	margin-left:27vw;
+	margin-top: 10vh;
+	background-color:rgb(0, 0, 0, 0.27);
+	border: 2px ridge lightyellow;
+	border-radius: 5vw;
+}
+ul.nav2{
+	margin: 0px;
+	padding: 0px;
+	width: 95%;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+li{
+	justify-content: center;
+	text-align: center;
+	list-style-type:none;
+	float: left;
+	border: 2px ridge lightyellow ;
+	margin-right: 1vw;
+	margin-left: 1vw;
+	border-radius: 200px;
+	padding: 5%;
+	cursor: pointer;
+	background: radial-gradient(rgb(255, 255, 255, 0.4),rgb(0, 0, 0, 0.27));
+	height: 25%;
+}
+ul.nav2 li a{
+	color: white;
+	text-decoration: none;
+	font-size: 2vw;
+}
+ul.nav2 li.link42:hover{
+	background-image: url(../img/gifs/cat.gif);
+		background-size: 100% 100%;
+}
+ul.nav2 li.link42:hover a{
+	color: white ;
+	font-weight: bold;
+}
+ul.nav2 li.link32:hover{
+	background-image: url(../img/imagens/mapa_mundi.png);
+	background-size: 100% 100%;
+}
+ul.nav2 li.link32:hover a{
+	color: black ;
+	font-weight: bold;
+}
+ul.nav2 li.link22:hover{
+	background-image: url(../img/gifs/muita_musica1.gif);
+}
+ul.nav2 li.link22:hover a{
+	color: indianred ;
+	font-weight: bold;
+}
+ul.nav2 li.link12:hover{
+	background: radial-gradient(rgb(255, 255, 255, 0.4),rgb(130, 130, 130, 0.4));
+	background-size: 100% 100%;
+}
+ul.nav2 li.link12:hover a{
+	color: floralwhite ;
+	font-weight: bold;
+}
+
+/*part2*/
+
+body.party1{
+	background: url(../img/background/party_ground3.png);
+}
+main.party{
+	display: flex;
+	width: 80vw;
+	height: auto;
+	margin-left: 10vw;
+	margin-top: 5vh;
+	background-color: rgb(0, 0, 0, 0.6);
+	border-radius: 45px;
+	flex-direction: column;
+	align-items: center;
+	border: 2px ridge white;
+}
+section.titulo_festa{
+	background-color: rgb(0, 0, 0, 0.4);
+	margin-top:7vh ;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	width: 60vw;
+	margin-left:vw;
+	font-size: 4vw;
+}
+section.titulo_festa div{
+	margin: 0px;
+}
+section.titulo_festa h1{
+	font-size: 3vw;
+	margin: 0px;
+}
+section.titulo_festa img{
+	justify-content: center;
+	text-align: center;
+	width: 30%;
+	border-radius:16px;
+	margin: 0px;
+}
+#balâo_left{
+}
+#come_to_party{
+	width:50vw;
+	margin-right:-14.5%;
+	margin-left:-14.5%;
+	margin-top:5vh ;
+}
+#balão_right{
+}
+section.blablabla{
+	display: flex;
+	width: 60vw;
+	height: auto;
+	margin-left: vw;
+	margin-top: 5vh;
+	background-color: rgb(0, 0, 0, 0.6);
+	border-radius: 45px;
+	flex-direction: column;
+	align-items: center;
+	font-size: 2vw;
+	margin-bottom: 5vh;
+}
+section.location_home{
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+}
+#mapa_festa{
+	margin-left: -5vw;
+	margin-right: 6vw;
+}
+#endereço_festa{
+	margin-top: -25vh;
+}
+#endereço_festa p{
+	font-size: 1.5vw;
+}
+#setap{
+	margin-left: -17vw;
+	font-size: 2.5vw;
+	align-items: center;
+	justify-content: center;
+}
+#seta_da_festa{
+	align-items: center;
+	justify-content: center;
+	margin-left: 3vw;
+}
+#seta_da_festa span{
+	width: 300px;
+	height: auto;
+	font-size: 3.8vw;
+}
+#mapa_festa iframe{
+	border-radius: 16px
 }
