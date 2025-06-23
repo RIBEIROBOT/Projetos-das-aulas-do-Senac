@@ -1,14 +1,15 @@
 <?php require_once '../cabecalho.php' ?>
 	<section class="primeira">
-		<h1>Salario bruto</h1>
+		<h1>Area triangulo</h1>
 <?php
-	$nome=$_POST['nome'];
-	$horast=$_POST['horast'];
-	$valorh=$_POST['valorh'];
-	$avaliacao=$_POST['avaliacao'];
-	$salario_bruto=$horast*$valorh;
-	echo "<p>Caro(a) $nome,</p>";
-	echo "<p>Seu salario bruto é de R$:$salario_bruto</p>";
+
+	$base=$_GET['basic'];
+	$altura=$_GET['alt'];
+	$area=($base*$altura)/2;
+	$avaliacao=$_GET['avaliacao'];
+
+	echo "<p>A area do triangulo é $area</p>";
+
 	if ($avaliacao=="sim") {
 		echo "<p class=resposta><strong>Obrigado, tambem gostamos de você :)</strong></p>";
 	} 

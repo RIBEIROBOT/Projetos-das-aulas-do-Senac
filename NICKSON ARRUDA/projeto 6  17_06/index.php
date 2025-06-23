@@ -25,8 +25,18 @@
 								</a>
 							</li>
 							<li>
-								<a href="pages/idade.php" target="janela">
+								<a href="pages/idade1.php" target="janela">
 									Idade
+								</a>
+							</li>
+							<li>
+								<a href="pages/taxista1.php" target="janela">
+									Taxista
+								</a>
+							</li>
+							<li>
+								<a href="pages/triangulo1.php" target="janela">
+									Triangulo
 								</a>
 							</li>
 						</ol>

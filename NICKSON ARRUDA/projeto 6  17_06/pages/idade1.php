@@ -1,8 +1,8 @@
 <?php require_once '../cabecalho.php' ?>
 
-	<form action="salario2.php" method="POST">
+	<form action="idade2.php" method="GET">
 		<h1>
-			Calculo do salario bruto
+			Calculo da Idade
 		</h1>
 		<p>
 			Digite seu nome:
@@ -11,16 +11,16 @@
 			<input type="text" name="nome" size="50" maxlength="50" required>
 		</p>
 		<p>
-			Digite a quantidade de horas trabalhadas:
+			Digite seu ano de nascimento:
 		</p>
 		<p>
-			<input type="number" name="horast" min="1" max="176" step="1" required>
-		</p>
-		<p>
-			Digite o valor da hora em R$:
-		</p>
-		<p>
-			<input type="number" name="valorh" min="1" step="0.01" required>
+			<input type="number" name="ano" 
+			min="<?php 
+			$data=new DateTime(date('Y'));
+			$data=date_modify($data,'-125 years');
+	 		echo $data->format('Y');
+	 		?>" 
+			max="<?= date('Y')?>" step="1" required>
 		</p>
 		<p>
 			Você gostou dos nosso site?

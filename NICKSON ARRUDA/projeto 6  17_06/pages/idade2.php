@@ -1,14 +1,14 @@
 <?php require_once '../cabecalho.php' ?>
 	<section class="primeira">
-		<h1>Salario bruto</h1>
+		<h1>Idade do Individuo</h1>
 <?php
-	$nome=$_POST['nome'];
-	$horast=$_POST['horast'];
-	$valorh=$_POST['valorh'];
-	$avaliacao=$_POST['avaliacao'];
-	$salario_bruto=$horast*$valorh;
-	echo "<p>Caro(a) $nome,</p>";
-	echo "<p>Seu salario bruto é de R$:$salario_bruto</p>";
+	$nome=$_GET['nome'];
+	$ano=$_GET['ano'];
+	$avaliacao=$_GET['avaliacao'];
+	$idade=date('Y')-$ano;
+	
+	echo "<p>Querido $nome, podemos com certeza afirmar que sua idade é de $idade anos</p>";
+
 	if ($avaliacao=="sim") {
 		echo "<p class=resposta><strong>Obrigado, tambem gostamos de você :)</strong></p>";
 	} 
@@ -16,7 +16,6 @@
 		echo "<p class=resposta><strong>Obrigado pelo feedback, mas poderia nos dizer o porque você não gosta do nosso site?</strong></p>";
 	}
 ?>		
-	</section>
 	</section>
 	<style>
 		p.resposta{
