@@ -1,0 +1,73 @@
+<!DOCTYPE html> 
+
+<html lang="pt-BR" dir="ltr" >  
+
+
+<head>  
+	<!--protocolo-->
+		<meta charset="utf-8">   
+		<meta name="viewport" content="width=device-width, initial-scale=1">     
+		<title>Projeto hitboxes</title> 
+		<link rel="icon" href="_____">
+		<link rel="stylesheet" href="style_geral.css">
+
+	<!--meta_dados-->
+		<meta name="author" content="nickson arruda">
+		<meta name="keywords" content="_______"> 
+		<meta name="description" content="site de teste de hitboxes">
+</head>
+
+
+<body class=pony>   
+
+	<header class=cabeça_pony>    
+		<section class="menu_pony">
+			<ul class="nav">
+				<li class="link1"><a href="hitboxes.html">Virus Mortal</a></li>
+				<li class="link2"><a href="pony.html">My Little Pony</a></li>
+			</ul>
+		</section>
+	</header>
+
+	<main class=pony>
+		<section class=everybody>
+			<section class=texto_pinkie>
+		
+			</section>
+			<ul class=piano>
+				<li class=note id=note1 onclick="muda(this)"><p>dó</p></li>
+				<li class=note id=note2 onclick="muda(this)"><p>ré</p></li>
+				<li class=note id=note3 onclick="muda(this)"><p>mi</p></li>
+				<li class=note id=note4 onclick="muda(this)"><p>fá</p></li>
+				<li class=note id=note5 onclick="muda(this)"><p>sol</p></li>
+				<li class=note id=note6 onclick="muda(this)"><p>lá</p></li>
+				<li class=note id=note7 onclick="muda(this)"><p>si</p></li>
+				<li class=note id=note8 onclick="muda(this)"><p>dó</p></li>
+				<li class=note id=note9 onclick="muda(this)"><p>ré</p></li>
+				<li class=note id=note10 onclick="muda(this)"><p>mi</p></li>
+				<li class=note id=note11 onclick="muda(this)"><p>fá</p></li>
+				<li class=note id=note12 onclick="muda(this)"><p>sol</p></li>
+				<li class=note id=note13 onclick="muda(this)"><p>lá</p></li>
+				<li class=note id=note14 onclick="muda(this)"><p>si</p></li>
+				<li class=note id=note15 onclick="muda(this)"><p>dó</p></li>
+			</ul>
+		</section> 
+	</main>
+
+	<footer>    
+	</footer>
+<script>
+	var delayInMilliseconds =250;
+
+function muda(campo) {
+	campo.className='click';
+	setTimeout(function() {
+  	campo.className='note';
+}, delayInMilliseconds);
+}
+
+</script>
+</body>
+
+
+</html>

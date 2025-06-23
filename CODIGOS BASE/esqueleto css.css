@@ -1,0 +1,12 @@
+/*toda a pagina*/
+*{
+	margin: 0px;
+	padding: 0px; /*removem todos os espaços extras que extragam as pagina*/
+}
+body{
+	background-image:url(_____);	
+}
+section{
+	display: flex;
+	justify-content: center;
+}

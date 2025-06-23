@@ -1,0 +1,53 @@
+<!DOCTYPE html> 
+
+<html lang="pt-BR" dir="ltr" >  
+
+
+<head>  
+	<meta charset="utf-8">   
+	<meta name="viewport" content="width=device-width, initial-scale=1">     
+	<title>Projeto 4 (a matematica)</title> 
+	<link rel="icon" href="../img/icon's/calculator_icon's/calculator2.ico">
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="javascript" href="../java/variaveis.js">
+</head>
+
+
+<body>   
+
+	<header id=cabeça>    
+	</header>
+
+	<main id=main>
+		<section class="texto">	
+			<div id=imagem>
+				<img src="../img/butons/formula_integral.png" alt="imagem de formula matematica">
+			</div>
+			<div id=conteudo>
+				<p>a formula ao lado é usada para calcular integrais com limite</p>
+				<button onclick="mudar(1)">verde</button>
+				<button onclick="mudar(2)">vermelho</button>
+			</div>
+		</section>
+		<section class="link">
+			<div id=link>
+				<p><a href="../index.html">voltar</a></p>
+			</div>
+		</section>
+	</main>
+
+	<footer id=pé>    
+	</footer>
+<script type="text/javascript">
+	function mudar(num) {
+		if (num===1) {
+			document.getElementById('link').style="background:radial-gradient(yellowgreen, forestgreen)";
+		}else{
+			document.getElementById('link').style="background: radial-gradient(palevioletred, darkred);";
+		}
+	}
+</script>
+</body>
+
+
+</html>

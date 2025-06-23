@@ -1,0 +1,179 @@
+body{
+	color:rgb(156, 255, 34, 1.0);
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+body.hitboxes{
+	background: url(img/matrix4.png);
+}
+body header{
+	justify-content: center;
+	display: flex;
+	height: 10vh;
+	background:rgb(156, 255, 34, 0.2);
+}
+body header li a{
+	cursor: pointer;
+	text-decoration: none;
+	color: white;
+	list-style-type:none;
+	margin: 2vw;
+}
+body header ul{
+	list-style-type:none;
+	display: flex;
+	justify-content: center;
+	margin-top: 2.5vh;
+	font-size: 2vw;
+}
+body header.cabeça_pony{
+	justify-content: center;
+	display: flex;
+	height: 10vh;
+	background:hotpink;
+}
+section{
+	border: 0px ridge red; 
+}
+main.hitboxes{
+	background:rgb(0, 0, 0, 0.5);
+	width: 80vw;
+	height: 80	vh;
+	margin-left: 10vw;
+	margin-top: 0px;
+}
+section.titulo_hitboxes h1{
+	display: flex;
+	justify-content: center;
+	font-size: 3vw;
+}
+section.aviso_de_morte_hitboxes{
+	justify-content: center;
+	text-align: center;
+	font-size: 1.5vw;
+}
+img{
+	width: 150px;
+	height: 150px;
+	margin: 0vw;
+	cursor: pointer;
+}
+div.macaco_roxo_hitboxes img{
+	margin-left: -4vw;
+	margin-bottom: -31vh;
+}
+div.I_Love_You_hitboxes img{
+	margin-left: -3vw;
+	margin-top: -23vh;
+}
+div.wanna_cry_hitboxes img{
+	margin-left: -5vw;
+	margin-top: 5vh;
+}
+div.skull_hitboxes img{
+	margin-left: 76vw;
+	margin-bottom: -31vh;
+}
+div.red_spider_hitboxes img{
+	margin-left: 75vw;
+	margin-top: -8vh;
+}
+div.android_fake_hitboxes img{
+	margin-left: 77vw;
+	margin-top: -90vh;
+}
+main.pony{
+	justify-content: center;
+	display: flex;
+}
+section.everybody{
+	background:rgb(235, 84, 195, 0.5);
+	text-align: center;
+	height: 100vh;
+	width: 80vw;
+	margin-top: 5vh;
+	border-radius: 16px;
+}
+main ul.piano {
+	margin-top: 70vh;
+	margin-bottom: 13.6vh;
+	justify-content: center;
+	display: flex;
+
+}
+li.note{
+	background:white;
+	border: 2px ridge black;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	height: 16vh;
+	width: 3.6vw;
+}
+li.note p{
+	font-size: 1.5vw;
+	color: black;
+	margin-top: 12vh;
+}
+li.click{
+	background:lightgrey;
+	border: 2px ridge black;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	height: 16vh;
+	width: 3.6vw;
+}
+li.click p{
+	font-size: 1.5vw;
+	color: black;
+	margin-top: 12vh;
+}
+#note1.click{
+	
+}
+#note2.click{
+	
+}
+#note3.click{
+	
+}
+#note4.click{
+	
+}
+#note4.click{
+	
+}
+#note5.click{
+	
+}
+#note6.click{
+	
+}
+#note7.click{
+	
+}
+#note8.click{
+	
+}
+#note9.click{
+	
+}
+#note10.click{
+	
+}
+#note11.click{
+	
+}
+#note12.click{
+	
+}
+#note13.click{
+	
+}
+#note14.click{
+	
+}
+#note15.click{
+	
+}
